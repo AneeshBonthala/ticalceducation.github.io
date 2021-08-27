@@ -1,25 +1,27 @@
 * {
     background-color: #222222;
+    font-family: 'Armata', sans-serif;
 }
 
 header {
     display: flex;
-    position: relative;
+    position: fixed;
     top: -20px;
     margin: 0 -8px;
     padding: 0;
     background-color: #333333;
+    width: 100%;
 }
 
 header p {
-    font-family: 'Armata', sans-serif;
     font-size: 25px;
     position: relative;
     top: 40px;
-    margin: 0 22px;
+    margin: 0 21px;
     color: floralwhite;
     height: 40px;
     background-color: #333333;
+    font-weight: bold;
 }
 
 #logo {
@@ -29,7 +31,7 @@ header p {
     top: 25px;
     left: 30px;
     margin-right: 30px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     border: 1px solid floralwhite;
 }
 
@@ -50,5 +52,29 @@ header p {
     color: floralwhite;
     height: 50px;
     background-color: #333333;
+}
+
+
+
+
+
+
+
+
+
+footer {
+    display: flex;
+    position: absolute;
+    bottom: 0px;
+    left: 33%;
+    height: 10px;
+    text-align: center;
+    background-color: #333333;
+}
+
+footer p {
+    color: floralwhite;
+    padding: 50px;
+    padding-top: 10px;
 }
 
