@@ -1,0 +1,54 @@
+* {
+    background-color: #222222;
+}
+
+header {
+    display: flex;
+    position: relative;
+    top: -20px;
+    margin: 0 -8px;
+    padding: 0;
+    background-color: #333333;
+}
+
+header p {
+    font-family: 'Armata', sans-serif;
+    font-size: 25px;
+    position: relative;
+    top: 40px;
+    margin: 0 22px;
+    color: floralwhite;
+    height: 40px;
+    background-color: #333333;
+}
+
+#logo {
+    height: 65px;
+    width: 65px;
+    position: relative;
+    top: 25px;
+    left: 30px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    border: 1px solid floralwhite;
+}
+
+.mediator {
+    height: 45px;
+    width: 90px;
+    position: relative;
+    top: 35px;
+    margin: 0px 25px;
+    border: 1px solid floralwhite;
+}
+
+#name {
+    font-size: 40px !important;
+    font-weight: bold;
+    position: relative;
+    top: 30px;
+    color: floralwhite;
+    height: 50px;
+    background-color: #333333;
+}
+
