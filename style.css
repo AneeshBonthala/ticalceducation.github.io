@@ -67,7 +67,7 @@ header p {
 @font-face {
     font-family: 'Social Media Circled';
     src: url('Social Media Circled.otf')
-    format('truetype');
+    format('opentype');
 }
 
 footer {
@@ -105,14 +105,3 @@ footer {
 body {
     background-color: #222222;
 }
-
-
-
-
-
-
-
-
-
-
-
