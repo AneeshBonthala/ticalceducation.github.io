@@ -1,9 +1,18 @@
 * {
-    background-color: #222222;
-    font-family: 'Armata', sans-serif;
+    
+}
+
+a, a:visited, a:hover, a:active {
+    color: inherit;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 header {
+    font-family: 'Armata', sans-serif;
     display: flex;
     position: fixed;
     top: -20px;
@@ -55,26 +64,55 @@ header p {
 }
 
 
-
-
-
-
-
-
+@font-face {
+    font-family: 'Social Media Circled';
+    src: url('Social Media Circled.otf')
+    format('truetype');
+}
 
 footer {
-    display: flex;
+    background-color: #333333;
+    height: 50px;
     position: absolute;
     bottom: 0px;
-    left: 33%;
-    height: 10px;
-    text-align: center;
-    background-color: #333333;
+    width: 100%;
+    margin: 0 -8px;
+    display: flex;
 }
 
-footer p {
-    color: floralwhite;
-    padding: 50px;
-    padding-top: 10px;
+#socials {
+    font-family: 'Social Media Circled';
+    background-color: #333333;
+    font-size: 25px;
+    position: relative;
+    left: 45%;
+    bottom: 15px;
+    height: 0px;
+    color: gray;
 }
+
+#myname {
+    font-family: 'Roboto', sans-serif;
+    background-color: #333333;
+    font-size: 15px;
+    position: relative;
+    left: 45.5%;
+    bottom: 0px;
+    height: 0;
+    color: gray;
+}
+
+body {
+    background-color: #222222;
+}
+
+
+
+
+
+
+
+
+
+
 
