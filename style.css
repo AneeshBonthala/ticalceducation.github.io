@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    
 }
 
 a, a:visited, a:hover, a:active {
@@ -23,8 +22,17 @@ body::-webkit-scrollbar-thumb {
     outline: 1px solid black;
 }
 
+@font-face {
+    font-family: 'Social Media Circled';
+    src: url('fonts/Social Media Circled.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Westwood Sans';
+    src: url('fonts/WestwoodSans-Regular.ttf') format('truetype');
+}
+
 #header {
-    font-family: 'Titillium Web', sans-serif;
     height: 100px;
     width: 100%;
     position: fixed;
@@ -33,48 +41,31 @@ body::-webkit-scrollbar-thumb {
 
 #header-elements {
     display: flex;
-
-}
-
-#logo-name {
     height: 100px;
-    display: flex;
-    padding: 0 30px;
-    background-color: #333333;
+    width: 600px;
+    margin: auto auto;
 }
 
-#logo {
-    height: 80px;
+#header p {
+    font-family: 'Westwood Sans', sans-serif;
+    color: gray;
     margin: auto auto;
-    border: solid 2px gray;
 }
 
 #title {
-    margin: auto auto;
     font-size: 50px;
-    color: gray;
-    padding: 0 30px;
 }
 
-#headings {
-    height: 100px;
-    display: flex;
-    background-color: #333333;
+#programs {
+    font-size: 25px;
+    position: relative;
+    top: 8px;
 }
 
-#headings p {
-    margin: auto auto;
-    font-size: 30px;
-    color: gray;
-    padding: 5px 30px;
-}
-
-
-.mediator {
+#header img {
+    height: 60px;
     border: solid 2px gray;
-    background-color: black !important;
-    color: gray;
-    padding: 4px 5px 7px 5px;
+    margin: auto auto;
 }
 
 #footer {
@@ -90,11 +81,6 @@ body::-webkit-scrollbar-thumb {
     width: 250px;
     display: flex;
     margin: auto auto;
-}
-
-@font-face {
-    font-family: 'Social Media Circled';
-    src: url('Social Media Circled.otf') format('opentype');
 }
 
 #socials {
@@ -114,46 +100,30 @@ body::-webkit-scrollbar-thumb {
 }
 
 #my-name {
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Westwood Sans', sans-serif;
     color: gray;
     margin: auto auto;
 }
 
-
-
-
-
-
-
-
-
-
 #main {
-    position: relative;
+    position: absolute;
     top: 100px;
-    height: 100%;
+    bottom: 50px;
     height: auto;
+    width: 100%;
+    overflow: auto;
     background-color: #222222;
-
 }
 
 #main-container {
     position: relative;
-    width: 75%;
+    width: 50%;
     margin: auto;
     background-color: #222222;
-
 }
 
 #main-text {
-    
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    color: dimgray;
+    padding-top: 100px;
 }
-
-
-
-
-
-
-
-
-
