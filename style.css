@@ -11,6 +11,7 @@ a, a:visited, a:hover, a:active {
 
 ::-webkit-scrollbar {
     width: 10px;
+    height: 10px;
 }
 
 ::-webkit-scrollbar-track {
@@ -33,7 +34,7 @@ a, a:visited, a:hover, a:active {
     src: url('fonts/WestwoodSans-Regular.ttf') format('truetype');
 }
 
-/* MAIN PAGE */
+/* UNIVERSAL */
 
 #header {
     height: 100px;
@@ -134,7 +135,7 @@ a, a:visited, a:hover, a:active {
 
 #welcome {
     font-family: 'Westwood Sans', sans-serif;
-    font-size: 25px;
+    font-size: 30px;
     color: gray;
 }
 
@@ -144,4 +145,45 @@ a, a:visited, a:hover, a:active {
     font-family: 'Westwood Sans', sans-serif;
     font-size: 20px;
     color: gray;
+}
+
+/* PROGRAMS PAGE */
+
+.title {
+    font-family: 'Westwood Sans', sans-serif;
+    font-size: 25px;
+    color: gray;
+    text-align: center;
+}
+
+#intro {
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    color: dimgray;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.description {
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    color: dimgray;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.images {
+    display: flex;
+}
+
+.images img {
+    margin: auto auto;
+    border: 5px solid black;
+    overflow: auto;
+}
+
+#description-last {
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    color: dimgray;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
 }
